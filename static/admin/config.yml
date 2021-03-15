@@ -76,3 +76,17 @@ collections:
           summary: '{{fields.image}}',
           field: { label: 'Image', name: 'image', widget: 'image' },
         }
+    - name: 'careers'
+    label: 'Careers'
+    format: 'json'
+    folder: 'content/careers'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Start', name: 'start', widget: 'string' }
+      - { label: 'Salary', name: 'salary', widget: 'string' }
+      - { label: 'Summary', name: 'summary', widget: 'string' }
+      - { label: 'Perks', name: 'perks', widget: 'string' }
+      - { label: 'Type', name: 'type', widget: 'select', options: ['Full time', 'Part time', 'Remote'] }
+      - { label: 'Description', name: 'description', widget: 'markdown' }
