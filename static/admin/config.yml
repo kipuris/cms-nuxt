@@ -76,7 +76,7 @@ collections:
           summary: '{{fields.image}}',
           field: { label: 'Image', name: 'image', widget: 'image' },
         }
-    - name: 'careers'
+  - name: 'careers'
     label: 'Careers'
     format: 'json'
     folder: 'content/careers'
